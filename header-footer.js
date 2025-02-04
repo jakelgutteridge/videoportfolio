@@ -7,7 +7,7 @@ const headerHTML = `
   <header>
     <center>
       <a href="./index.html">
-        <img src="home.png" style="width: 30px; height: 30px;">
+        <img src="home.png" style="width: 30px; height: 30px; padding-top: 10px;">
       </a>
     </center>
   </header>
