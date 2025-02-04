@@ -6,36 +6,9 @@ const footerDiv = document.getElementById('footer');
 const headerHTML = `
   <header>
     <center>
-    <span style="line-height: 1.2;">
-      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
-        <tr>
-          <td>
-            <a href="/index" style="color: #FFFFFF;">
-              <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
-            </a>
-          </td>
-          <td>
-            <div class="nav" style="float: right;">
-              <div class="dropdown">
-                <div class="dropbtn">
-                  <img src="/images/menu.png" style="float: right;">
-                </div>
-                <div class="dropdown-content">
-                  <a href="/index">Home</a>
-                  <a href="/friends">Friends</a>
-                  <a href="/photos">Photos</a>
-                  <a href="/nature">Nature</a>
-                  <a href="/history">History</a>
-<!--                  <a href="/calendar">Calendar</a> -->
-                  <a href="/memorials">Memorials</a>
-                  <a href="/contact">Contact</a>
-                </div>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </table>
-      </span>
+      <a href="./index.html">
+        <img src="home.png" style="width: 30px; height: 30px;">
+      </a>
     </center>
   </header>
 `;
